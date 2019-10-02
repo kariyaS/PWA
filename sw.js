@@ -1,5 +1,5 @@
 
-var CACHE_STATIC_VERSION = 'static-v1';
+var CACHE_STATIC_VERSION = 'static-v1.1';
 
 // サービスワーカーのインストール
 self.addEventListener('install', function (event) {
