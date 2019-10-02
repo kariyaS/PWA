@@ -11,12 +11,12 @@ self.addEventListener('install', function (event) {
             .then(function (cache) {
                 console.log('[Service Worker] Precaching App...');
                 // 何でもキャッシュできる。cssとかの中で更にリクエストが発生する場合は、動的にキャッシュする必要がある（後述）
-                //cache.addAll([
-                //    '/',
+                cache.addAll([
+                    '/'
                 //    '/src/css/main.css',
                 //    '/src/js/main.js',
                 //    '/src/images/logo.jpg',
-                //]);
+                ]);
             })
     );
 });
