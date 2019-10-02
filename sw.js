@@ -21,7 +21,7 @@ self.addEventListener('install', function (event) {
     );
 });
 
-var CACHE_DYNAMIC_VERSION = 'dynamic-v1';
+var CACHE_DYNAMIC_VERSION = 'dynamic-v1.1';
 
 self.addEventListener('fetch', function (event) {
     console.log('[Service Worker] Fetching something ...');
