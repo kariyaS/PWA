@@ -14,8 +14,8 @@ self.addEventListener('install', function (event) {
                 cache.addAll([
                     '/',
                 //  '/image/icon-192.png',
-                //    '/src/js/main.js',
-                //    '/src/images/logo.jpg',
+                    '/react.js',
+                    '/react-dom.js',
                 ]);
             })
     );
