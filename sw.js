@@ -1,5 +1,5 @@
 
-var CACHE_STATIC_VERSION = 'static-v1.1';
+var CACHE_STATIC_VERSION = 'static-v1.2';
 
 // サービスワーカーのインストール
 self.addEventListener('install', function (event) {
@@ -21,7 +21,7 @@ self.addEventListener('install', function (event) {
     );
 });
 
-var CACHE_DYNAMIC_VERSION = 'dynamic-v1.1';
+var CACHE_DYNAMIC_VERSION = 'dynamic-v1.2';
 
 self.addEventListener('fetch', function (event) {
     console.log('[Service Worker] Fetching something ...');
