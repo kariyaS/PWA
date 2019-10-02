@@ -13,7 +13,7 @@ self.addEventListener('install', function (event) {
                 // 何でもキャッシュできる。cssとかの中で更にリクエストが発生する場合は、動的にキャッシュする必要がある（後述）
                 cache.addAll([
                     '/',
-                //    '/src/css/main.css',
+                    '/image/icon-192.png',
                 //    '/src/js/main.js',
                 //    '/src/images/logo.jpg',
                 ]);
