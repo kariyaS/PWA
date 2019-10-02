@@ -24,7 +24,6 @@ self.addEventListener('install', function (event) {
 var CACHE_DYNAMIC_VERSION = 'dynamic-v1.1';
 
 self.addEventListener('fetch', function (event) {
-    debugger
     console.log('[Service Worker] Fetching something ...');
     event.respondWith(
         // キャッシュの存在チェック
@@ -52,7 +51,6 @@ self.addEventListener('fetch', function (event) {
 });
 
 self.addEventListener('activate', function (event) {
-    debugger
     console.log('[Service Worker] Activating Service Worker...');
     event.waitUntil(
         caches.keys()
